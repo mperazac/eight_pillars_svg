@@ -1,0 +1,61 @@
+.eight-pillars {
+  visibility: visible;
+}
+
+.pillar,
+#upper_base,
+#ceiling {
+  animation: fadein 3s forwards;
+  opacity: 0;
+  transform-origin: 50% 50%;
+  stroke: #e5e5e5;
+  stroke-width: 0.5;
+  transition: 0.3s;
+}
+
+#pillar_1 {
+  animation-delay: 0.5s;
+}
+
+#pillar_2 {
+  animation-delay: 1s;
+}
+
+#pillar_3 {
+  animation-delay: 1.5s;
+}
+
+#pillar_4 {
+  animation-delay: 2s;
+}
+
+#pillar_5 {
+  animation-delay: 2.5s;
+}
+
+#pillar_6 {
+  animation-delay: 3s;
+}
+
+#pillar_7 {
+  animation-delay: 3.5s;
+}
+
+#pillar_8 {
+  animation-delay: 4s;
+}
+
+#upper_base {
+  animation-delay: 4.5s;
+}
+
+#ceiling {
+  animation-delay: 5s;
+}
+
+@keyframes fadein {
+  100% {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+}
