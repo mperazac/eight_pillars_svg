@@ -1,12 +1,18 @@
-.eight-pillars {
-  visibility: visible;
+.eight-pillars-add-on {
+  text-align: center;
+  visibility: hidden;
 }
 
 .pillar,
 #upper_base,
 #ceiling {
-  animation: fadein 3s forwards;
   opacity: 0;
+}
+
+.sppb-animated .pillar,
+.sppb-animated #upper_base,
+.sppb-animated #ceiling {
+  animation: fadein 3s forwards;
   transform-origin: 50% 50%;
   stroke: #e5e5e5;
   stroke-width: 0.5;
