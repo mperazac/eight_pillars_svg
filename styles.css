@@ -3,6 +3,10 @@
   visibility: hidden;
 }
 
+.eigth_pillars a:hover {
+  text-decoration: none;
+}
+
 .pillar,
 #upper_base,
 #ceiling {
